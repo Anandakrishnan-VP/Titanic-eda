@@ -6,7 +6,6 @@ print(df.describe(include="object"))
 #Histograms and boxplots for numeric features
 import matplotlib.pyplot as plt
 import seaborn as sns
-#numric_cols=df.select_dtypes(include=["int64","float64"]).columns
 numerical_cols=["Age","Fare","SibSp","Parch"]
 #histograms
 plt.figure(figsize=(15, 8))
@@ -32,4 +31,5 @@ plt.title("Correleation Matrix")
 plt.show()
  
     
+
     
